@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Om Sikarwar — Java Programmer, Personal Story Writer, National-Level Footballer, and State-Level Taekwondo Black Belt. The intersection of code, narrative, and athletic discipline." />
+  <meta name="author" content="Om Sikarwar" />
+  <title>Om Sikarwar | Java Programmer • Story Writer • National Athlete • Black Belt</title>
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Om Sikarwar | Java Programmer • Story Writer • Athlete" />
+  <meta property="og:description" content="The personal portfolio of Om Sikarwar: Engineering systems, crafting stories, and competing with athletic discipline." />
+
+  <!-- Google Fonts: Editorial Serif + Modern Technical Sans + Monospace -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-mesh mesh-1" aria-hidden="true"></div>
+  <div class="ambient-mesh mesh-2" aria-hidden="true"></div>
+  <div class="ambient-mesh mesh-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Om Sikarwar Home">
+        <span class="logo-monogram">OS</span>
+        <div class="logo-title-group">
+          <span class="logo-name">OM SIKARWAR</span>
+          <span class="logo-tag">CODE • WORDS • GRIT</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#philosophy" class="nav-link">Pillars</a></li>
+          <li><a href="#engineering" class="nav-link">Java & Tech</a></li>
+          <li><a href="#writing" class="nav-link">Stories</a></li>
+          <li><a href="#athletics" class="nav-link">Athletics & Martial Arts</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#journey" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Quick Customizer Guide Button -->
+        <button id="guide-modal-btn" class="guide-trigger-btn" title="Open Customization Guide" aria-label="Customization Guide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 16v-4"></path>
+            <path d="M12 8h.01"></path>
+          </svg>
+          <span>Guide</span>
+        </button>
+
+        <!-- Theme Switcher -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">Let's Connect</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="hamburger-btn" aria-label="Open mobile menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#philosophy" class="mobile-nav-link">Pillars of Discipline</a></li>
+        <li><a href="#engineering" class="mobile-nav-link">Java & Engineering</a></li>
+        <li><a href="#writing" class="mobile-nav-link">Stories & Essays</a></li>
+        <li><a href="#athletics" class="mobile-nav-link">Athletics & Taekwondo</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects & Code</a></li>
+        <li><a href="#journey" class="mobile-nav-link">Milestone Journey</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Get In Touch</a></li>
+        <li class="mobile-cta-item">
+          <a href="#contact" class="btn btn-primary btn-block">Connect With Om</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         HERO SECTION: High-End Editorial Meets Developer Precision
+         ========================================================================= -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Live Status Badge -->
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Open to Engineering Roles, Creative Projects & Sports Collaborations</span>
+          </div>
+
+          <!-- Editorial Lead Name & Title -->
+          <div class="hero-name-wrap">
+            <span class="hero-kicker">PERSONAL PORTFOLIO & ARCHIVE OF</span>
+            <h1 class="hero-name">OM <span class="gradient-text">SIKARWAR</span></h1>
+          </div>
+
+          <!-- Multi-Disciplinary Dynamic Roles Ticker -->
+          <div class="hero-ticker-wrap" aria-label="Om's Roles">
+            <span class="ticker-label">Specialist In:</span>
+            <div class="ticker-badges">
+              <span class="badge badge-tech"><i class="badge-icon">☕</i> Java Programmer</span>
+              <span class="badge badge-creative"><i class="badge-icon">✍️</i> Personal Story Writer</span>
+              <span class="badge badge-football"><i class="badge-icon">⚽</i> National-Level Footballer</span>
+              <span class="badge badge-martial"><i class="badge-icon">🥋</i> Taekwondo Black Belt</span>
+            </div>
+          </div>
+
+          <!-- Brand Statement -->
+          <p class="hero-statement">
+            Bridging the structural rigor of <strong>Java backend engineering</strong>, the empathetic voice of a <strong>story writer</strong>, 
+            the tactical vision of a <strong>national football athlete</strong>, and the relentless discipline of a <strong>Taekwondo black belt</strong>.
+          </p>
+
+          <!-- Interactive Pillar Switcher (Hero Micro-App) -->
+          <div class="hero-pillar-box" id="heroPillarBox">
+            <div class="pillar-tab-nav" role="tablist" aria-label="Identity Focus Switcher">
+              <button class="pillar-tab-btn active" data-pillar="engineering" role="tab" aria-selected="true">
+                <span class="pillar-tab-icon">💻</span>
+                <span class="pillar-tab-text">The Engineer</span>
+              </button>
+              <button class="pillar-tab-btn" data-pillar="writer" role="tab" aria-selected="false">
+                <span class="pillar-tab-icon">📖</span>
+                <span class="pillar-tab-text">The Storyteller</span>
+              </button>
+              <button class="pillar-tab-btn" data-pillar="football" role="tab" aria-selected="false">
+                <span class="pillar-tab-icon">⚽</span>
+                <span class="pillar-tab-text">The National Athlete</span>
+              </button>
+              <button class="pillar-tab-btn" data-pillar="taekwondo" role="tab" aria-selected="false">
+                <span class="pillar-tab-icon">🥋</span>
+                <span class="pillar-tab-text">The Black Belt</span>
+              </button>
+            </div>
+
+            <div class="pillar-tab-content">
+              <!-- Engineering Panel -->
+              <div class="pillar-panel active" id="pillar-engineering">
+                <div class="pillar-panel-inner">
+                  <div class="pillar-lead">
+                    <span class="pillar-tag">Java Core & Object Architecture</span>
+                    <h3>Structured logic built for scalability and endurance.</h3>
+                    <p>I approach software engineering with strict adherence to Object-Oriented principles, algorithmic efficiency, clean architecture, and defensive programming. Every system is built to last.</p>
+                  </div>
+                  <div class="pillar-stat-chip">
+                    <strong>Focus:</strong> Core Java, OOP, Data Structures, Scalable Architecture
+                  </div>
+                </div>
+              </div>
+
+              <!-- Writer Panel -->
+              <div class="pillar-panel" id="pillar-writer">
+                <div class="pillar-panel-inner">
+                  <div class="pillar-lead">
+                    <span class="pillar-tag">Personal Narrative & Editorial Essays</span>
+                    <h3>Translating complex human experiences into poignant prose.</h3>
+                    <p>Writing personal stories sharpens my empathy, critical reflection, and communication. A great developer must articulate intent clearly—code is read far more often than it is written.</p>
+                  </div>
+                  <div class="pillar-stat-chip">
+                    <strong>Focus:</strong> Personal Memoirs, Life Lessons, Essays on Discipline & Growth
+                  </div>
+                </div>
+              </div>
+
+              <!-- Football Panel -->
+              <div class="pillar-panel" id="pillar-football">
+                <div class="pillar-panel-inner">
+                  <div class="pillar-lead">
+                    <span class="pillar-tag">National-Level Competitor</span>
+                    <h3>Split-second tactical awareness and relentless pitch stamina.</h3>
+                    <p>Competing on the national football pitch taught me how to operate under extreme high pressure, coordinate team dynamics in real time, and turn setbacks into strategic counter-attacks.</p>
+                  </div>
+                  <div class="pillar-stat-chip">
+                    <strong>Level:</strong> National Tournaments • Pitch Strategy • Team Synergy
+                  </div>
+                </div>
+              </div>
+
+              <!-- Taekwondo Panel -->
+              <div class="pillar-panel" id="pillar-taekwondo">
+                <div class="pillar-panel-inner">
+                  <div class="pillar-lead">
+                    <span class="pillar-tag">Black Belt & State-Level Medalist</span>
+                    <h3>Indomitable spirit, millimeter precision, and martial focus.</h3>
+                    <p>Earning a Taekwondo Black Belt is not just an athletic milestone—it is a lifelong philosophy. It demands ten thousand repetitions of fundamentals, unwavering composure, and respect.</p>
+                  </div>
+                  <div class="pillar-stat-chip">
+                    <strong>Rank:</strong> Certified Black Belt • State-Level Competitor
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#engineering" class="btn btn-primary">
+              <span>Explore Technical Works</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#writing" class="btn btn-outline">
+              <span>Read Story Archive</span>
+            </a>
+            <a href="#athletics" class="btn btn-ghost">
+              <span>Sporting Records</span>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-metrics-bar">
+            <div class="metric-item">
+              <span class="metric-value">Java</span>
+              <span class="metric-sub">Object Architecture & Algorithms</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <span class="metric-value">National</span>
+              <span class="metric-sub">Football Athlete Record</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <span class="metric-value">Black Belt</span>
+              <span class="metric-sub">State Taekwondo Competitor</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <span class="metric-value">Writer</span>
+              <span class="metric-sub">Narrative Storytelling Craft</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 1: THE QUAD-PILLAR PHILOSOPHY (The Synthesis)
+         ========================================================================= -->
+    <section id="philosophy" class="section philosophy-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">THE OM SIKARWAR MATRIX</span>
+          <h2 class="section-title">Four Disciplines. One Uncompromising Standard.</h2>
+          <p class="section-description">
+            Great engineering does not exist in a vacuum. It is fortified by physical endurance, martial precision, 
+            and narrative empathy. Here is how my four core pillars reinforce each other.
+          </p>
+        </div>
+
+        <div class="quad-grid">
+          <!-- Pillar 1: Java Engineering -->
+          <div class="quad-card card-engineering">
+            <div class="card-pillar-header">
+              <div class="pillar-icon-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 18l6-6-6-6"></path>
+                  <path d="M8 6l-6 6 6 6"></path>
+                  <path d="M12 4v16"></path>
+                </svg>
+              </div>
+              <span class="pillar-roman">01</span>
+            </div>
+            <div class="pillar-tag-mini">SOFTWARE ENGINEERING</div>
+            <h3 class="card-pillar-title">The Java Architect</h3>
+            <p class="card-pillar-body">
+              Specialized in Java development, object-oriented design patterns, memory awareness, and algorithmic problem-solving. 
+              I value readable code, robust unit testing, and architecture that stands firm under system load.
+            </p>
+            <ul class="pillar-highlights">
+              <li>Strong mastery of Object-Oriented Programming (OOP)</li>
+              <li>Collections, Generics, and Concurrent Programming</li>
+              <li>Algorithmic complexity & optimization mindset</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 2: Personal Story Writing -->
+          <div class="quad-card card-writing">
+            <div class="card-pillar-header">
+              <div class="pillar-icon-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                  <path d="M2 2l7.586 7.586"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+              <span class="pillar-roman">02</span>
+            </div>
+            <div class="pillar-tag-mini">CREATIVE EXPRESSION</div>
+            <h3 class="card-pillar-title">The Storyteller</h3>
+            <p class="card-pillar-body">
+              Penning personal stories, essays, and reflective memoirs. Crafting narrative develops emotional intelligence, 
+              clarifies intent, and enables me to explain complex technical ideas with resonant simplicity.
+            </p>
+            <ul class="pillar-highlights">
+              <li>Reflective essays on resilience, growth & discipline</li>
+              <li>High narrative craft and audience empathy</li>
+              <li>Clear technical and interpersonal communication</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 3: Football Athlete -->
+          <div class="quad-card card-football">
+            <div class="card-pillar-header">
+              <div class="pillar-icon-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+              </div>
+              <span class="pillar-roman">03</span>
+            </div>
+            <div class="pillar-tag-mini">NATIONAL ATHLETICS</div>
+            <h3 class="card-pillar-title">The National Footballer</h3>
+            <p class="card-pillar-body">
+              Competing at the national level demands tactical awareness, instantaneous adaptation, physical stamina, 
+              and synchronized teamwork. I bring pitch-honed camaraderie and leadership into software teams.
+            </p>
+            <ul class="pillar-highlights">
+              <li>National-level tournament competitive experience</li>
+              <li>High-stakes tactical decision-making in real-time</li>
+              <li>Team-first communication and shared accountability</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 4: Taekwondo Black Belt -->
+          <div class="quad-card card-martial">
+            <div class="card-pillar-header">
+              <div class="pillar-icon-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <span class="pillar-roman">04</span>
+            </div>
+            <div class="pillar-tag-mini">MARTIAL DISCIPLINE</div>
+            <h3 class="card-pillar-title">The Black Belt</h3>
+            <p class="card-pillar-body">
+              Certified Taekwondo Black Belt and State-Level competitor. The martial tenets—Courtesy, Integrity, 
+              Perseverance, Self-Control, and Indomitable Spirit—guide my daily work ethic and debugging patience.
+            </p>
+            <ul class="pillar-highlights">
+              <li>State-Level championship combat experience</li>
+              <li>Taekwondo Black Belt certified rank</li>
+              <li>Steely focus, technical repetition, and composure</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cross-Discipline Synthesis Banner -->
+        <div class="synthesis-quote-box">
+          <div class="synthesis-badge">THE CROSS-DISCIPLINARY ADVANTAGE</div>
+          <blockquote class="synthesis-quote">
+            "Athletics builds the stamina to code for hours without losing sharpness. Martial arts instills the humility to debug without ego. 
+            Storytelling gives meaning to why we build in the first place."
+          </blockquote>
+          <div class="synthesis-author">— Om Sikarwar</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 2: JAVA & TECHNICAL ENGINEERING LAB
+         ========================================================================= -->
+    <section id="engineering" class="section engineering-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">ENGINEERING BENCH</span>
+          <h2 class="section-title">Java Programming & Core Systems</h2>
+          <p class="section-description">
+            A deep appreciation for typed systems, modular design, clean code semantics, and defensive architecture.
+          </p>
+        </div>
+
+        <div class="engineering-layout">
+          <!-- Left Column: Technical Skill Matrix -->
+          <div class="tech-capabilities">
+            <h3 class="tech-subhead">Core Competencies & Tooling</h3>
+
+            <!-- Skill Group 1: Java Core -->
+            <div class="skill-group-box">
+              <div class="skill-group-top">
+                <span class="skill-category-title">Java Core & Language Fundamentals</span>
+                <span class="skill-badge">Primary Focus</span>
+              </div>
+              <p class="skill-group-desc">Deep comprehension of JVM mechanics, object lifecycles, and core standard libraries.</p>
+              <div class="pill-tags">
+                <span class="tech-pill">Java 8 / 11 / 17 / 21</span>
+                <span class="tech-pill">OOP Architecture</span>
+                <span class="tech-pill">Encapsulation & Polymorphism</span>
+                <span class="tech-pill">Java Collections Framework</span>
+                <span class="tech-pill">Exception Handling</span>
+                <span class="tech-pill">Generics & Type Safety</span>
+                <span class="tech-pill">Multithreading Basics</span>
+                <span class="tech-pill">Stream API & Lambdas</span>
+              </div>
+            </div>
+
+            <!-- Skill Group 2: Data Structures & Algorithms -->
+            <div class="skill-group-box">
+              <div class="skill-group-top">
+                <span class="skill-category-title">Data Structures & Problem Solving</span>
+                <span class="skill-badge">Algorithmic</span>
+              </div>
+              <p class="skill-group-desc">Analytical approach to time/space complexity and systematic problem decomposition.</p>
+              <div class="pill-tags">
+                <span class="tech-pill">Arrays & Strings</span>
+                <span class="tech-pill">Linked Lists</span>
+                <span class="tech-pill">Stacks & Queues</span>
+                <span class="tech-pill">Trees & Graphs</span>
+                <span class="tech-pill">Sorting & Searching</span>
+                <span class="tech-pill">Recursion & Backtracking</span>
+                <span class="tech-pill">Big-O Analysis</span>
+              </div>
+            </div>
+
+            <!-- Skill Group 3: Architecture & Ecosystem (Placeholders for Expansion) -->
+            <div class="skill-group-box">
+              <div class="skill-group-top">
+                <span class="skill-category-title">Ecosystem, Architecture & Tools</span>
+                <span class="skill-badge">Expanding</span>
+              </div>
+              <p class="skill-group-desc">Modern developer toolkit and software craft practices.</p>
+              <div class="pill-tags">
+                <span class="tech-pill">Git & GitHub</span>
+                <span class="tech-pill">IntelliJ IDEA / VS Code</span>
+                <span class="tech-pill">Maven / Gradle [Placeholder]</span>
+                <span class="tech-pill">Spring Boot / REST APIs [Placeholder]</span>
+                <span class="tech-pill">SQL / Relational Databases [Placeholder]</span>
+                <span class="tech-pill">Unit Testing (JUnit) [Placeholder]</span>
+              </div>
+            </div>
+
+            <div class="placeholder-notice">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              <span>Skills marked with <em>[Placeholder]</em> reflect current active expansion tracks to maintain 100% honesty.</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Java Code Studio -->
+          <div class="interactive-code-studio">
+            <div class="studio-header">
+              <div class="window-controls">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="studio-title">
+                <span class="studio-file-icon">☕</span>
+                <span id="active-filename">MartialDisciplineEngine.java</span>
+              </div>
+              <button class="copy-code-btn" id="copyCodeBtn" title="Copy Code Snippet">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span id="copyBtnText">Copy</span>
+              </button>
+            </div>
+
+            <!-- Code Tabs -->
+            <div class="code-tabs-nav" role="tablist">
+              <button class="code-tab-btn active" data-tab="martial-code" role="tab">DisciplineEngine.java</button>
+              <button class="code-tab-btn" data-tab="football-code" role="tab">PitchTactics.java</button>
+              <button class="code-tab-btn" data-tab="story-code" role="tab">StoryNarrative.java</button>
+            </div>
+
+            <!-- Code Content Area -->
+            <div class="code-view-container">
+              <!-- Tab 1: DisciplineEngine.java -->
+              <pre class="code-block active" id="code-martial-code"><code><span class="token-comment">/**
+ * MartialDisciplineEngine.java
+ * Demonstrating clean OOP, immutability, and domain modeling.
+ * Author: Om Sikarwar (Java Programmer & Taekwondo Black Belt)
+ */</span>
+<span class="token-keyword">package</span> dev.omsikarwar.core;
+
+<span class="token-keyword">import</span> java.util.List;
+<span class="token-keyword">import</span> java.util.Objects;
+
+<span class="token-keyword">public class</span> <span class="token-class">MartialDisciplineEngine</span> {
+    
+    <span class="token-comment">// Core Taekwondo Tenets modeled as Immutable State</span>
+    <span class="token-keyword">public enum</span> <span class="token-class">Tenet</span> {
+        COURTESY, INTEGRITY, PERSEVERANCE, SELF_CONTROL, INDOMITABLE_SPIRIT
+    }
+
+    <span class="token-keyword">public record</span> <span class="token-class">BlackBeltProfile</span>(
+        String athleteName,
+        String martialRank,
+        List&lt;Tenet&gt; coreValues
+    ) {}
+
+    <span class="token-keyword">public static void</span> <span class="token-method">main</span>(String[] args) {
+        BlackBeltProfile om = <span class="token-keyword">new</span> BlackBeltProfile(
+            <span class="token-string">"Om Sikarwar"</span>,
+            <span class="token-string">"Taekwondo Black Belt (State Competitor)"</span>,
+            List.of(Tenet.values())
+        );
+
+        System.out.println(<span class="token-string">"Initialized: "</span> + om.athleteName());
+        System.out.println(<span class="token-string">"Rank Verified: "</span> + om.martialRank());
+        
+        <span class="token-comment">// Applying martial perseverance to software engineering</span>
+        om.coreValues().stream()
+            .map(tenet -> <span class="token-string">"Engineering Principle &gt; "</span> + tenet)
+            .forEach(System.out::println);
+    }
+}</code></pre>
+
+              <!-- Tab 2: PitchTactics.java -->
+              <pre class="code-block" id="code-football-code"><code><span class="token-comment">/**
+ * PitchTactics.java
+ * Modeling National-Level Football tactical coordination in Java.
+ * Author: Om Sikarwar
+ */</span>
+<span class="token-keyword">package</span> dev.omsikarwar.athletics;
+
+<span class="token-keyword">import</span> java.util.concurrent.CompletableFuture;
+
+<span class="token-keyword">public class</span> <span class="token-class">FootballTacticalCoordinator</span> {
+
+    <span class="token-keyword">public static class</span> <span class="token-class">MatchPhase</span> {
+        <span class="token-keyword">private final</span> String state;
+        <span class="token-keyword">public</span> MatchPhase(String state) { <span class="token-keyword">this</span>.state = state; }
+        <span class="token-keyword">public</span> String getState() { <span class="token-keyword">return</span> state; }
+    }
+
+    <span class="token-comment">// High-pressure decision making under match constraints</span>
+    <span class="token-keyword">public CompletableFuture</span>&lt;String&gt; executeCounterAttack() {
+        <span class="token-keyword">return</span> CompletableFuture.supplyAsync(() -&gt; {
+            <span class="token-comment">// Tactical awareness on the pitch</span>
+            <span class="token-keyword">boolean</span> spaceIdentified = <span class="token-keyword">true</span>;
+            <span class="token-keyword">if</span> (spaceIdentified) {
+                <span class="token-keyword">return</span> <span class="token-string">"Tactical Transition: Forward Pass Executed cleanly."</span>;
+            }
+            <span class="token-keyword">return</span> <span class="token-string">"Maintain Possession & Reset Shape."</span>;
+        });
+    }
+}</code></pre>
+
+              <!-- Tab 3: StoryNarrative.java -->
+              <pre class="code-block" id="code-story-code"><code><span class="token-comment">/**
+ * StoryNarrative.java
+ * Software meets storytelling: Builder Pattern for Narrative Craft.
+ * Author: Om Sikarwar (Personal Story Writer)
+ */</span>
+<span class="token-keyword">package</span> dev.omsikarwar.narrative;
+
+<span class="token-keyword">public class</span> <span class="token-class">PersonalStory</span> {
+    <span class="token-keyword">private final</span> String title;
+    <span class="token-keyword">private final</span> String coreTheme;
+    <span class="token-keyword">private final</span> String takeaway;
+
+    <span class="token-keyword">private</span> PersonalStory(Builder builder) {
+        <span class="token-keyword">this</span>.title = builder.title;
+        <span class="token-keyword">this</span>.coreTheme = builder.coreTheme;
+        <span class="token-keyword">this</span>.takeaway = builder.takeaway;
+    }
+
+    <span class="token-keyword">public static class</span> <span class="token-class">Builder</span> {
+        <span class="token-keyword">private</span> String title;
+        <span class="token-keyword">private</span> String coreTheme;
+        <span class="token-keyword">private</span> String takeaway;
+
+        <span class="token-keyword">public</span> Builder title(String t) { <span class="token-keyword">this</span>.title = t; <span class="token-keyword">return this</span>; }
+        <span class="token-keyword">public</span> Builder theme(String th) { <span class="token-keyword">this</span>.coreTheme = th; <span class="token-keyword">return this</span>; }
+        <span class="token-keyword">public</span> Builder takeaway(String tk) { <span class="token-keyword">this</span>.takeaway = tk; <span class="token-keyword">return this</span>; }
+        <span class="token-keyword">public</span> PersonalStory build() { <span class="token-keyword">return new</span> PersonalStory(<span class="token-keyword">this</span>); }
+    }
+}</code></pre>
+            </div>
+
+            <div class="studio-footer">
+              <span class="status-indicator">● Java Standard Edition 21</span>
+              <span class="encoding">UTF-8 • Clean Code Standard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3: THE EDITORIAL LOUNGE (Personal Story Writer)
+         ========================================================================= -->
+    <section id="writing" class="section writing-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">THE EDITORIAL LOUNGE</span>
+          <h2 class="section-title">Personal Story Writing & Essays</h2>
+          <p class="section-description">
+            Where introspection meets narrative craft. I write personal stories exploring resilience, the psychology 
+            of high-level competition, and how disciplined practice changes how we view the world.
+          </p>
+        </div>
+
+        <div class="story-grid">
+          <!-- Story Card 1 -->
+          <article class="story-card">
+            <div class="story-card-meta">
+              <span class="story-category">DISCIPLINE & GROWTH</span>
+              <span class="story-read-time">5 Min Read</span>
+            </div>
+            <h3 class="story-title">
+              <span class="placeholder-tag">[Placeholder Essay Title]</span>
+              The 10,000 Kicks: What the Dojang Taught Me About Writing Code
+            </h3>
+            <p class="story-excerpt">
+              In Taekwondo, no one gives you a Black Belt for memorizing the textbook; you earn it through muscle memory, 
+              humility after defeat, and countless quiet mornings. In software engineering, the exact same law applies...
+            </p>
+            <div class="story-card-footer">
+              <div class="story-author-info">
+                <span class="author-name">Om Sikarwar</span>
+                <span class="story-date">[Date Placeholder]</span>
+              </div>
+              <button class="btn btn-sm btn-outline read-story-btn" data-story-id="1">
+                Read Excerpt
+              </button>
+            </div>
+          </article>
+
+          <!-- Story Card 2 -->
+          <article class="story-card featured">
+            <div class="story-badge-highlight">FEATURED ESSAY</div>
+            <div class="story-card-meta">
+              <span class="story-category">ATHLETIC PSYCHOLOGY</span>
+              <span class="story-read-time">7 Min Read</span>
+            </div>
+            <h3 class="story-title">
+              <span class="placeholder-tag">[Placeholder Essay Title]</span>
+              Ninety Minutes Under Thunder: Composure Under Pressure
+            </h3>
+            <p class="story-excerpt">
+              When the whistle blows at the national tournament, the noise fades into a sharp tunnel. The panic 
+              that freezes most players is countered only by unconditional trust in preparation and your teammates...
+            </p>
+            <div class="story-card-footer">
+              <div class="story-author-info">
+                <span class="author-name">Om Sikarwar</span>
+                <span class="story-date">[Date Placeholder]</span>
+              </div>
+              <button class="btn btn-sm btn-primary read-story-btn" data-story-id="2">
+                Read Excerpt
+              </button>
+            </div>
+          </article>
+
+          <!-- Story Card 3 -->
+          <article class="story-card">
+            <div class="story-card-meta">
+              <span class="story-category">CRAFT & PHILOSOPHY</span>
+              <span class="story-read-time">6 Min Read</span>
+            </div>
+            <h3 class="story-title">
+              <span class="placeholder-tag">[Placeholder Essay Title]</span>
+              Why Every Developer Should Write Stories
+            </h3>
+            <p class="story-excerpt">
+              We often mistake code for numbers and syntax. But code is language. It is human intent sculpted for 
+              both machines and future engineers. To write compelling prose is to learn how to communicate without ambiguity...
+            </p>
+            <div class="story-card-footer">
+              <div class="story-author-info">
+                <span class="author-name">Om Sikarwar</span>
+                <span class="story-date">[Date Placeholder]</span>
+              </div>
+              <button class="btn btn-sm btn-outline read-story-btn" data-story-id="3">
+                Read Excerpt
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Story Publishing Note -->
+        <div class="story-editorial-note">
+          <p>
+            <strong>Author's Note:</strong> The essays above are structured with clear placeholders so you can drop in your actual published articles, 
+            Medium stories, Substack newsletters, or personal diary excerpts.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4: ATHLETICS & MARTIAL ARTS PAVILION
+         ========================================================================= -->
+    <section id="athletics" class="section athletics-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">ATHLETIC EXCELLENCE & MARTIAL SPIRIT</span>
+          <h2 class="section-title">The Competitive Arena</h2>
+          <p class="section-description">
+            High performance on the football pitch and the Taekwondo mats. Proven leadership, tournament grit, 
+            and verified physical and mental mastery.
+          </p>
+        </div>
+
+        <div class="athletics-columns">
+          <!-- Column 1: National Football Player -->
+          <div class="athletic-column football-pavilion">
+            <div class="pavilion-header">
+              <div class="pavilion-icon">⚽</div>
+              <div>
+                <span class="pavilion-level-badge badge-national">NATIONAL LEVEL</span>
+                <h3 class="pavilion-title">Football Athlete</h3>
+              </div>
+            </div>
+
+            <p class="pavilion-intro">
+              Representing at the <strong>National Level</strong> in football requires exceptional game reading, cardiovascular endurance, 
+              tactical positioning, and the instinct to coordinate dynamic squad movements under match intensity.
+            </p>
+
+            <div class="athlete-attribute-grid">
+              <div class="attrib-box">
+                <span class="attrib-title">Pitch Vision</span>
+                <span class="attrib-val">Spatial & Tactical Awareness</span>
+              </div>
+              <div class="attrib-box">
+                <span class="attrib-title">Match Temperament</span>
+                <span class="attrib-val">Cool Under High Stakes</span>
+              </div>
+              <div class="attrib-box">
+                <span class="attrib-title">Synergy</span>
+                <span class="attrib-val">Seamless Team Coordination</span>
+              </div>
+              <div class="attrib-box">
+                <span class="attrib-title">Position / Style</span>
+                <span class="attrib-val"><span class="placeholder-tag">[Enter Position Placeholder]</span></span>
+              </div>
+            </div>
+
+            <div class="record-dossier">
+              <h4 class="dossier-heading">National Competition Dossier</h4>
+              <ul class="dossier-list">
+                <li>
+                  <span class="dossier-bullet"></span>
+                  <div>
+                    <strong>National-Level Representation:</strong>
+                    <p class="placeholder-text">[Enter Tournament / Championship Name, e.g. National School Games / AIU / Sub-Junior / Junior National, Year, Host City]</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="dossier-bullet"></span>
+                  <div>
+                    <strong>Team Role & Achievements:</strong>
+                    <p class="placeholder-text">[Enter Role: e.g. Midfielder / Forward / Defender / Squad Member, Notable Match Results or Honors]</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="dossier-bullet"></span>
+                  <div>
+                    <strong>Regional / State Qualifying Path:</strong>
+                    <p class="placeholder-text">[Enter State/District Selection Details & Qualifying Tournament Records]</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2: State Taekwondo & Black Belt -->
+          <div class="athletic-column martial-pavilion">
+            <div class="pavilion-header">
+              <div class="pavilion-icon">🥋</div>
+              <div>
+                <span class="pavilion-level-badge badge-state">STATE LEVEL • BLACK BELT</span>
+                <h3 class="pavilion-title">Taekwondo Martial Artist</h3>
+              </div>
+            </div>
+
+            <p class="pavilion-intro">
+              Certified <strong>Taekwondo Black Belt</strong> and active <strong>State-Level Competitor</strong>. 
+              The martial path emphasizes self-governance, reactive speed, explosive technique, and psychological endurance.
+            </p>
+
+            <!-- 5 Tenets of Taekwondo Banner -->
+            <div class="taekwondo-tenets-bar">
+              <div class="tenet-pill" title="Courtesy">Ye-Ui <span>Courtesy</span></div>
+              <div class="tenet-pill" title="Integrity">Yom-Chi <span>Integrity</span></div>
+              <div class="tenet-pill" title="Perseverance">In-Nae <span>Perseverance</span></div>
+              <div class="tenet-pill" title="Self-Control">Guk-Gi <span>Self-Control</span></div>
+              <div class="tenet-pill" title="Indomitable Spirit">Baekjul-Boolgool <span>Indomitable Spirit</span></div>
+            </div>
+
+            <div class="athlete-attribute-grid">
+              <div class="attrib-box">
+                <span class="attrib-title">Martial Rank</span>
+                <span class="attrib-val">Taekwondo Black Belt</span>
+              </div>
+              <div class="attrib-box">
+                <span class="attrib-title">Combat Discipline</span>
+                <span class="attrib-val">Kyorugi (Sparring) / Poomsae</span>
+              </div>
+              <div class="attrib-box">
+                <span class="attrib-title">Competition Tier</span>
+                <span class="attrib-val">State-Level Championship</span>
+              </div>
+              <div class="attrib-box">
+                <span class="attrib-title">Weight / Division</span>
+                <span class="attrib-val"><span class="placeholder-tag">[Enter Category Placeholder]</span></span>
+              </div>
+            </div>
+
+            <div class="record-dossier">
+              <h4 class="dossier-heading">State Championship & Dan Record</h4>
+              <ul class="dossier-list">
+                <li>
+                  <span class="dossier-bullet"></span>
+                  <div>
+                    <strong>Black Belt Certification:</strong>
+                    <p class="placeholder-text">[Enter Taekwondo Federation / Academy Name, Dan Rank, Certification Year]</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="dossier-bullet"></span>
+                  <div>
+                    <strong>State Championship Participation:</strong>
+                    <p class="placeholder-text">[Enter State Championship Tournament Name, State/Venue, Year, Medal/Placement if any]</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="dossier-bullet"></span>
+                  <div>
+                    <strong>Martial Arts Lineage & Training:</strong>
+                    <p class="placeholder-text">[Enter Training Club / Master / Dojang Details & Years of Continuous Practice]</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5: PROJECTS & INNOVATIONS (Interactive Filterable Grid)
+         ========================================================================= -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">PORTFOLIO OF WORKS</span>
+          <h2 class="section-title">Featured Projects & Innovations</h2>
+          <p class="section-description">
+            Software architectures, technical systems, and creative productions. Structured with customizable 
+            placeholders ready for your genuine repositories and live deployments.
+          </p>
+        </div>
+
+        <!-- Project Filters -->
+        <div class="project-filters" role="group" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all">All Works</button>
+          <button class="filter-btn" data-filter="java">Java & Software</button>
+          <button class="filter-btn" data-filter="writing">Writing & Narratives</button>
+          <button class="filter-btn" data-filter="sports">Sports & Analytics</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          
+          <!-- Project 1: Java Enterprise Backend System -->
+          <article class="project-card" data-category="java">
+            <div class="project-card-badge">JAVA / BACKEND</div>
+            <div class="project-card-header">
+              <span class="project-number">01</span>
+              <div class="project-links">
+                <a href="#contact" class="proj-link-icon" title="View Repository Placeholder" aria-label="Repository">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card-title">
+              <span class="placeholder-tag">[Project Name Placeholder]</span>
+              Core Java Enterprise Engine & Architecture
+            </h3>
+            <p class="project-card-desc">
+              A structured backend application written in Java focusing on object-oriented modularity, 
+              robust error recovery, and strict data layer separation. Designed for reliable execution and scale.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java SE</span>
+              <span class="tag">OOP Design Patterns</span>
+              <span class="tag">Collections</span>
+              <span class="tag">Exception Handling</span>
+              <span class="tag">[Database / SQL Placeholder]</span>
+            </div>
+            <div class="project-card-cta">
+              <span class="placeholder-notice-mini">Ready for your GitHub repository URL</span>
+            </div>
+          </article>
+
+          <!-- Project 2: Data Structures & Algorithms Lab -->
+          <article class="project-card" data-category="java">
+            <div class="project-card-badge">ALGORITHMS / DSA</div>
+            <div class="project-card-header">
+              <span class="project-number">02</span>
+              <div class="project-links">
+                <a href="#contact" class="proj-link-icon" title="View Repository Placeholder" aria-label="Repository">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card-title">
+              <span class="placeholder-tag">[Project Name Placeholder]</span>
+              Algorithmic Optimization & Problem-Solving Suite
+            </h3>
+            <p class="project-card-desc">
+              Comprehensive collection of benchmarked solutions for complex algorithmic challenges: 
+              tree traversals, dynamic programming, graph search, and custom data structure implementations in Java.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Algorithms</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">Time Complexity</span>
+              <span class="tag">Benchmarking</span>
+            </div>
+            <div class="project-card-cta">
+              <span class="placeholder-notice-mini">Ready for your LeetCode / GitHub link</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Sports Performance Tracker -->
+          <article class="project-card" data-category="sports">
+            <div class="project-card-badge">SPORTS & SYSTEMS</div>
+            <div class="project-card-header">
+              <span class="project-number">03</span>
+              <div class="project-links">
+                <a href="#contact" class="proj-link-icon" title="View Repository Placeholder" aria-label="Repository">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card-title">
+              <span class="placeholder-tag">[Project Name Placeholder]</span>
+              Athletic Performance & Match Analytics Engine
+            </h3>
+            <p class="project-card-desc">
+              A conceptual or software system designed to track football match telemetry, cardio endurance intervals, 
+              and martial arts sparring statistics for peak competitive preparation.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java Logic</span>
+              <span class="tag">Analytics Modeling</span>
+              <span class="tag">Sports Science</span>
+              <span class="tag">[Database Placeholder]</span>
+            </div>
+            <div class="project-card-cta">
+              <span class="placeholder-notice-mini">Ready for your custom project details</span>
+            </div>
+          </article>
+
+          <!-- Project 4: Digital Story Publication Archive -->
+          <article class="project-card" data-category="writing">
+            <div class="project-card-badge">CREATIVE / EDITORIAL</div>
+            <div class="project-card-header">
+              <span class="project-number">04</span>
+              <div class="project-links">
+                <a href="#contact" class="proj-link-icon" title="View Publication Placeholder" aria-label="Story Archive">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card-title">
+              <span class="placeholder-tag">[Publication Name Placeholder]</span>
+              Personal Stories & Reflections Archive
+            </h3>
+            <p class="project-card-desc">
+              Curated digital anthology of non-fiction narratives, essays on modern ambition, and introspective 
+              accounts of athletic resilience and creative evolution.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Creative Non-Fiction</span>
+              <span class="tag">Editorial Writing</span>
+              <span class="tag">Personal Memoirs</span>
+              <span class="tag">[Substack / Medium URL]</span>
+            </div>
+            <div class="project-card-cta">
+              <span class="placeholder-notice-mini">Ready for your blog / publication URL</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 6: JOURNEY & MILESTONES (Dual-Track Timeline)
+         ========================================================================= -->
+    <section id="journey" class="section journey-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">MILESTONES & CREDENTIALS</span>
+          <h2 class="section-title">The Progression Timeline</h2>
+          <p class="section-description">
+            A dual-track journey of academic/engineering focus alongside national and state sporting achievements. 
+            All external titles and institutions are marked with clear placeholders for absolute accuracy.
+          </p>
+        </div>
+
+        <div class="timeline-dual-grid">
+          <!-- Track A: Engineering & Academics -->
+          <div class="timeline-column">
+            <div class="timeline-header">
+              <span class="timeline-icon">🎓</span>
+              <h3>Engineering & Academics</h3>
+            </div>
+
+            <div class="timeline-events">
+              <!-- Event 1 -->
+              <div class="timeline-event">
+                <div class="event-marker"></div>
+                <div class="event-card">
+                  <span class="event-year">[Year - Present Placeholder]</span>
+                  <h4 class="event-title">Higher Education & Computer Science Studies</h4>
+                  <div class="event-org">[University / College Name Placeholder]</div>
+                  <p class="event-desc">
+                    [Degree / Major Placeholder: e.g. Bachelor of Technology / Computer Science Engineering]. 
+                    Focusing on Java programming, object-oriented software engineering, discrete math, and algorithms.
+                  </p>
+                  <span class="placeholder-tag">[Add your college & GPA/Grade details here]</span>
+                </div>
+              </div>
+
+              <!-- Event 2 -->
+              <div class="timeline-event">
+                <div class="event-marker"></div>
+                <div class="event-card">
+                  <span class="event-year">[Year Placeholder]</span>
+                  <h4 class="event-title">Core Java & Backend Architecture Milestones</h4>
+                  <div class="event-org">[Self-Directed / Certification Body Placeholder]</div>
+                  <p class="event-desc">
+                    Intensive study in Object-Oriented Principles, data structure implementations, multi-threaded 
+                    programming, and modular software design in Java.
+                  </p>
+                  <span class="placeholder-tag">[Add certifications or hackathons attended]</span>
+                </div>
+              </div>
+
+              <!-- Event 3 -->
+              <div class="timeline-event">
+                <div class="event-marker"></div>
+                <div class="event-card">
+                  <span class="event-year">[Year Placeholder]</span>
+                  <h4 class="event-title">Editorial & Story Writing Endeavors</h4>
+                  <div class="event-org">[Publication / Independent Writing Platform Placeholder]</div>
+                  <p class="event-desc">
+                    Continuous publishing and crafting of personal memoirs, sports psychology reflections, 
+                    and essays on mental fortitude.
+                  </p>
+                  <span class="placeholder-tag">[Add publication names or personal portfolio links]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Track B: Sporting & Martial Arts Honors -->
+          <div class="timeline-column">
+            <div class="timeline-header">
+              <span class="timeline-icon">🏆</span>
+              <h3>Athletics & Martial Arts Honors</h3>
+            </div>
+
+            <div class="timeline-events">
+              <!-- Event 1 -->
+              <div class="timeline-event">
+                <div class="event-marker martial"></div>
+                <div class="event-card">
+                  <span class="event-year">[Certification Year Placeholder]</span>
+                  <h4 class="event-title">Taekwondo Black Belt Achievement</h4>
+                  <div class="event-org">[Taekwondo Federation / Association Placeholder]</div>
+                  <p class="event-desc">
+                    Awarded the prestigious <strong>Black Belt</strong> in Taekwondo following years of rigorous testing, 
+                    poomsae perfection, full-contact sparring, and mastery of martial discipline.
+                  </p>
+                  <span class="placeholder-tag">[Add your Dan / Poom certificate number & federation]</span>
+                </div>
+              </div>
+
+              <!-- Event 2 -->
+              <div class="timeline-event">
+                <div class="event-marker football"></div>
+                <div class="event-card">
+                  <span class="event-year">[Tournament Year Placeholder]</span>
+                  <h4 class="event-title">National-Level Football Competition</h4>
+                  <div class="event-org">[National Tournament / Organizing Body Placeholder]</div>
+                  <p class="event-desc">
+                    Selected to compete at the <strong>National Level</strong> in competitive football, testing tactical 
+                    vision, speed, and endurance against top athletes across the country.
+                  </p>
+                  <span class="placeholder-tag">[Add tournament name, division, team name & venue]</span>
+                </div>
+              </div>
+
+              <!-- Event 3 -->
+              <div class="timeline-event">
+                <div class="event-marker martial"></div>
+                <div class="event-card">
+                  <span class="event-year">[Tournament Year Placeholder]</span>
+                  <h4 class="event-title">State-Level Taekwondo Championship</h4>
+                  <div class="event-org">[State Taekwondo Association Placeholder]</div>
+                  <p class="event-desc">
+                    Competed in the State-Level Taekwondo Championship across intensive sparring rounds, demonstrating 
+                    poise under pressure and tournament-level technique.
+                  </p>
+                  <span class="placeholder-tag">[Add state championship name, medal/ranking, category]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 7: RECRUITER & COLLABORATOR FAST DOSSIER
+         ========================================================================= -->
+    <section class="section dossier-section">
+      <div class="container">
+        <div class="dossier-card">
+          <div class="dossier-left">
+            <span class="dossier-badge">FOR RECRUITERS & ENGINEERING LEADS</span>
+            <h2 class="dossier-title">Why Om Sikarwar Brings an Unfair Advantage to Your Team</h2>
+            <p class="dossier-desc">
+              When you hire a software engineer who is also a national athlete and a martial arts black belt, 
+              you get more than just lines of Java code.
+            </p>
+          </div>
+          <div class="dossier-right">
+            <div class="dossier-point">
+              <span class="point-num">01</span>
+              <div>
+                <strong>Unbreakable Work Ethic & Focus</strong>
+                <p>A black belt isn't given; it is forged through thousands of hours of repetition. That same patience powers bug fixing and system optimization.</p>
+              </div>
+            </div>
+            <div class="dossier-point">
+              <span class="point-num">02</span>
+              <div>
+                <strong>National Pitch-Honed Team Camaraderie</strong>
+                <p>Football is the ultimate team sport. I understand team communication, collective victory, and executing when the stakes are high.</p>
+              </div>
+            </div>
+            <div class="dossier-point">
+              <span class="point-num">03</span>
+              <div>
+                <strong>Rare Communication & Narrative Clarity</strong>
+                <p>As a personal story writer, I know how to articulate architecture, document systems cleanly, and align with non-technical stakeholders.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 8: CONTACT & COLLABORATION
+         ========================================================================= -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">INITIATE CONTACT</span>
+          <h2 class="section-title">Let's Build Something Exceptional</h2>
+          <p class="section-description">
+            Available for software engineering opportunities, technical discussions, writing collaborations, 
+            or athletic connections. Feel free to reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact Details & Quick Copy -->
+          <div class="contact-info-panel">
+            <h3 class="contact-subhead">Direct Contact Channels</h3>
+            <p class="contact-lead-text">
+              Reach out for internships, developer roles, speaking, or collaborations. I respond promptly.
+            </p>
+
+            <div class="contact-chips">
+              <!-- Email Card with Copy Feature -->
+              <div class="contact-chip-card">
+                <div class="chip-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="chip-text">
+                  <span class="chip-label">Email (Click to Copy)</span>
+                  <span class="chip-value" id="emailToCopy">[contact@omsikarwar.dev - Placeholder]</span>
+                </div>
+                <button class="copy-chip-btn" id="copyEmailBtn" title="Copy Email Address" aria-label="Copy Email">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-chip-card">
+                <div class="chip-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="chip-text">
+                  <span class="chip-label">Location / Base</span>
+                  <span class="chip-value">[City, State, Country Placeholder]</span>
+                </div>
+              </div>
+
+              <!-- Identity Verification -->
+              <div class="contact-chip-card">
+                <div class="chip-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <div class="chip-text">
+                  <span class="chip-label">Verified Disciplines</span>
+                  <span class="chip-value">Java • Story Writer • Football • Taekwondo</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Placeholders -->
+            <div class="social-links-box">
+              <span class="social-label">Professional Profiles & Socials:</span>
+              <div class="social-icons-row">
+                <!-- GitHub -->
+                <a href="#contact" class="social-icon-btn" title="GitHub [https://github.com/omsikarwar]" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="#contact" class="social-icon-btn" title="LinkedIn [https://linkedin.com/in/omsikarwar]" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <!-- Writing / Substack / Medium -->
+                <a href="#contact" class="social-icon-btn" title="Writing Archive [https://substack.com/@omsikarwar]" aria-label="Writing">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                </a>
+                <!-- Twitter / X -->
+                <a href="#contact" class="social-icon-btn" title="X / Twitter [https://twitter.com/omsikarwar]" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <h3 class="contact-subhead">Send a Direct Dispatch</h3>
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="senderName" class="form-label">Your Name</label>
+                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Elena Rostova" required />
+                  <span class="form-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                  <label for="senderEmail" class="form-label">Your Email</label>
+                  <input type="email" id="senderEmail" class="form-input" placeholder="e.g. elena@company.com" required />
+                  <span class="form-error" id="emailError"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="messageSubject" class="form-label">Subject / Purpose</label>
+                <select id="messageSubject" class="form-select">
+                  <option value="recruiting">Engineering Opportunity / Recruiter Inquiry</option>
+                  <option value="story">Writing Collaboration / Editorial Feedback</option>
+                  <option value="sports">Athletics / Taekwondo / Football Networking</option>
+                  <option value="general">General Connection / Hello</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message</label>
+                <textarea id="senderMessage" class="form-textarea" rows="5" placeholder="Share your proposal, role details, or feedback..." required></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <span>Dispatch Message</span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div id="formSuccessToast" class="form-toast success" role="alert" style="display: none;">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Thank you! Your message simulation was recorded. Om will get back to you shortly.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER: Editorial Monogram & Respect
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">OM SIKARWAR</span>
+          <p class="footer-tagline">
+            Java Programmer • Personal Story Writer • National Footballer • Taekwondo Black Belt
+          </p>
+        </div>
+        <div class="footer-nav">
+          <a href="#hero">Back to Top ↑</a>
+          <a href="#philosophy">Pillars</a>
+          <a href="#engineering">Java Tech</a>
+          <a href="#writing">Stories</a>
+          <a href="#athletics">Athletics</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Om Sikarwar. Built with modern web standards (Zero external build tooling required).
+        </p>
+        <p class="footer-note">
+          Designed with editorial precision, athletic stamina, and martial discipline.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL 1: DISTRACTION-FREE STORY READER MODAL
+       ========================================================================= -->
+  <div id="storyModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modalStoryTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="modal-kicker" id="modalStoryKicker">ESSAY EXCERPT</span>
+        <button class="modal-close-btn" id="closeStoryModalBtn" aria-label="Close reading window">✕</button>
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalStoryTitle">The 10,000 Kicks: What the Dojang Taught Me About Writing Code</h2>
+        <div class="modal-meta">
+          <span id="modalStoryAuthor">By Om Sikarwar</span> • 
+          <span id="modalStoryCategory">Discipline & Growth</span> • 
+          <span id="modalStoryDate">[Placeholder Date]</span>
+        </div>
+        <div class="modal-prose" id="modalStoryContent">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="modal-footer-note">Note: Replace placeholder text with your actual published essays or Medium/Substack links in index.html and js/main.js.</span>
+        <button class="btn btn-sm btn-outline" id="modalDoneBtn">Done Reading</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MODAL 2: CUSTOMIZATION GUIDE (How to personalize placeholders)
+       ========================================================================= -->
+  <div id="guideModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modalGuideTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="modal-kicker">PERSONALIZATION CHECKLIST</span>
+        <button class="modal-close-btn" id="closeGuideModalBtn" aria-label="Close guide window">✕</button>
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalGuideTitle">How to Fill Your Placeholders in Minutes</h2>
+        <div class="modal-prose">
+          <p>This portfolio is strictly tailored to <strong>Om Sikarwar</strong>'s four identities without fabricating any unconfirmed personal data. Here is where you can plug in your real information:</p>
+
+          <div class="guide-step">
+            <strong>1. Contact & Socials:</strong>
+            <p>Open <code>index.html</code> and search for <code>contact@omsikarwar.dev</code>. Replace with your real email, plus your GitHub, LinkedIn, and X/Twitter handles.</p>
+          </div>
+
+          <div class="guide-step">
+            <strong>2. National Football Records:</strong>
+            <p>Search for <code>[National Tournament / Organizing Body Placeholder]</code> in <code>index.html</code> to enter your exact tournament name (e.g. Sub-Junior / Junior National, SGFI, AIU), year, and playing position.</p>
+          </div>
+
+          <div class="guide-step">
+            <strong>3. Taekwondo Black Belt & State Record:</strong>
+            <p>Search for <code>[Taekwondo Federation / Academy Name, Dan Rank]</code> to insert your Dan certificate number and State Championship division.</p>
+          </div>
+
+          <div class="guide-step">
+            <strong>4. College & Education:</strong>
+            <p>Search for <code>[University / College Name Placeholder]</code> in the Timeline section to enter your current degree, college, and graduation year.</p>
+          </div>
+
+          <div class="guide-step">
+            <strong>5. Real Projects & Essays:</strong>
+            <p>In the <code>#projects</code> and <code>#writing</code> sections, update the GitHub repository links and story excerpt texts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-sm btn-primary" id="guideDoneBtn">Got It, Let's Go!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Quick Copy -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
